@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vannapu Dipak Goud — Portfolio</title>
+  <meta name="description" content="Portfolio of Vannapu Dipak Goud — Application Developer with skills in HTML, CSS, JavaScript, Core Java, Software Testing, MySQL.">
+  <link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
+  <link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
+  <link href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap)" rel="stylesheet">
+  <link rel="stylesheet" href="index.css" />
+  <!-- Icons CDN -->
+  <link href="[cdnjs.cloudflare.com](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css)" rel="stylesheet">
+</head>
+<body>
+  <!-- Fixed Navbar -->
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a href="#home" class="brand" aria-label="Home">
+        <!-- "A"-based logo (futuristic mono SVG) -->
+        <span class="logo" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 64 64" fill="none" xmlns="[w3.org](http://www.w3.org/2000/svg)" role="img">
+            <path d="M32 6 L54 58 L46 58 L40 44 L24 44 L18 58 L10 58 L32 6 Z M36 36 L32 26 L28 36 L36 36 Z" fill="currentColor"/>
+          </svg>
+        </span>
+        <span class="brand-text">A-Portfolio</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Objective</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="btn-resume" href="resume.pdf" download>Download Resume</a></li>
+      </ul>
+    </nav>
+    <div class="nav-underline"></div>
+  </header>
+
+  <!-- Hero / Home -->
+  <section id="home" class="section hero container">
+    <div class="hero-grid">
+      <div class="hero-text reveal">
+        <h1 class="glow">Vannapu Dipak Goud</h1>
+        <p class="subtitle">Application Developer · Front‑End · MySQL · Core Java</p>
+        <div class="contact-row">
+          <a class="chip" href="tel:+919391964396"><i class="fa-solid fa-phone"></i> 9391964396</a>
+          <a class="chip" href="mailto:vannapudipak123@gmail.com"><i class="fa-solid fa-envelope"></i> vannapudipak123@gmail.com</a>
+          <a class="chip" href="[dipaksportfolio.netlify.app](https://dipaksportfolio.netlify.app/)" target="_blank" rel="noreferrer">
+            <i class="fa-solid fa-globe"></i> Portfolio Website
+          </a>
+        </div>
+        <div class="hero-cta">
+          <a class="btn primary" href="#projects"><i class="fa-solid fa-terminal"></i> View Projects</a>
+          <a class="btn ghost" href="resume.pdf" download><i class="fa-solid fa-download"></i> Resume</a>
+        </div>
+      </div>
+      <div class="hero-aside reveal">
+        <div class="card sys">
+          <div class="card-head">
+            <span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span>
+            <span class="title">/usr/bin/profile — status</span>
+          </div>
+          <pre class="card-body"><code>$ whoami
+vannapu_dipak_goud
+
+$ role
+Application Developer
+
+$ location
+Hyderabad, India
+
+$ focus
+Responsive UIs, SQL-backed features
+
+$ status
+Ready for entry-level opportunities</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Objective -->
+  <section id="about" class="section container reveal">
+    <h2 class="section-title"><i class="fa-solid fa-bullseye"></i> Career Objective</h2>
+    <p class="block">
+      An enthusiastic and dedicated individual seeking an entry-level position where I can apply my technical knowledge and problem-solving skills. I aim to work in a challenging environment that encourages continuous learning, growth, and innovation while contributing to the organization’s success.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section container reveal">
+    <h2 class="section-title"><i class="fa-solid fa-code"></i> Technical & Soft Skills</h2>
+
+    <div class="grid-2">
+      <div class="panel">
+        <h3 class="panel-title">Technical Skills</h3>
+        <ul class="kv">
+          <li><span>Front-end Languages</span><span>HTML, CSS, JavaScript</span></li>
+          <li><span>Technical-skills</span><span>Core Java, Software testing</span></li>
+          <li><span>Databases</span><span>MySQL</span></li>
+          <li><span>Tools & IDEs</span><span>NetBeans, VS Code</span></li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3 class="panel-title">Soft Skills</h3>
+        <div class="tags">
+          <span class="tag">Time Management</span>
+          <span class="tag">Communication</span>
+          <span class="tag">Leadership</span>
+          <span class="tag">Creative</span>
+          <span class="tag">Hard Work</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section container reveal">
+    <h2 class="section-title"><i class="fa-solid fa-briefcase"></i> Experience</h2>
+    <div class="timeline">
+      <article class="timecard">
+        <header class="timecard-head">
+          <h3>Application Developer</h3>
+          <span class="org">BSIT Software Services Private Limited — Hyderabad, India</span>
+        </header>
+        <ul class="list">
+          <li>Contributed as an Application Developer with a focus on building responsive and user-friendly front-end interfaces using HTML and CSS.</li>
+          <li>Hands-on experience in backend support using SQL for database handling and query optimization.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section container reveal">
+    <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+
+    <div class="edu-grid">
+      <article class="edu">
+        <h3>Aurora’s Technological and Research Institute (ATRI), Hyderabad, India</h3>
+        <p><strong>Bachelors in Computer Science Engineering</strong> — CGPA: 7.2/10</p>
+        <p class="meta">Aug 2019 - Jul 2023</p>
+      </article>
+
+      <article class="edu">
+        <h3>Narayana Junior College, Hyderabad, India</h3>
+        <p><strong>Telangana Board of Intermediate Education (TSBIE)</strong></p>
+        <p>Class XII MPC — Percentage: 87.2%</p>
+        <p class="meta">Apr 2017 - Apr 2019</p>
+      </article>
+
+      <article class="edu">
+        <h3>Sri Krishnaveni High School, Nagar Kurnool, India</h3>
+        <p><strong>Board of Secondary Education (SSC)</strong></p>
+        <p>Class X — CGPA: 8.7</p>
+        <p class="meta">Jun 2016 - Apr 2017</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section container reveal">
+    <h2 class="section-title"><i class="fa-solid fa-diagram-project"></i> Projects</h2>
+
+    <div class="project">
+      <header class="project-head">
+        <h3>Privacy preserving location data publishing: a machine learning approach</h3>
+        <span class="role">Role: Team Leader — ATRI-Hyd (Oct 2022 - Nov 2022)</span>
+      </header>
+      <ul class="list">
+        <li>The process of data publication can be highly risky as it may disclose individuals’ sensitive information.</li>
+        <li>A widely accepted privacy for the publication of datasets is <strong>k-anonymity</strong>.</li>
+        <li>The anonymization scheme is based on achieving k-anonymity by grouping similar trajectories and removing highly dissimilar ones.</li>
+        <li>The anonymisation used is known as <strong>MLA (Machine Learning based Anonymisation)</strong>.</li>
+        <li>Methods used in the preserving include <strong>k-means algorithm</strong> and <strong>generalisation algorithm</strong>.</li>
+        <li>The data is <strong>unsupervised</strong>, so k-means algorithm is used.</li>
+        <li>The dataset used is the taxi trajectory <strong>(TDRIVE) dataset</strong>. The ID for the data drive is longitude-latitude data location.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <header class="project-head">
+        <h3>Efficient Retrieval over documents encrypted by attributes in Cloud Computing</h3>
+        <span class="role">Role: Team Leader — ATRI-Hyd (Dec 2022 - Jun 2023)</span>
+      </header>
+      <ul class="list">
+        <li>Secure document storage and retrieval is one of the hottest research directions in cloud computing.</li>
+        <li>Searchable encryption schemes have been proposed and are under work; few support efficient retrieval over documents encrypted based on their names.</li>
+        <li>A <strong>hierarchical attribute-based encryption</strong> scheme is first designed for a document collection.</li>
+        <li>A set of documents can be encrypted together if they share an integrated access structure.</li>
+        <li>With <strong>ciphertext-policy attribute-based encryption (CP-ABE)</strong> schemes, both the ciphertext storage space and time costs of encryption/decryption are saved.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section container reveal">
+    <h2 class="section-title"><i class="fa-solid fa-comments"></i> Testimonials</h2>
+    <div class="carousel">
+      <button class="car-btn prev" aria-label="Previous testimonial"><i class="fa-solid fa-chevron-left"></i></button>
+      <div class="car-track">
+        <article class="tcard">
+          <p>“Dipak shows strong ownership and delivers clean, responsive UI with attention to detail.”</p>
+          <div class="tauthor">
+            <img src="images/user1.jpg" alt="User avatar 1" onerror="this.style.visibility='hidden'">
+            <div>
+              <strong>Project Mentor</strong>
+              <span>ATRI, Hyderabad</span>
+            </div>
+          </div>
+        </article>
+        <article class="tcard">
+          <p>“Solid grasp of SQL and practical problem-solving — reliable for database-backed features.”</p>
+          <div class="tauthor">
+            <img src="images/user2.jpg" alt="User avatar 2" onerror="this.style.visibility='hidden'">
+            <div>
+              <strong>Team Lead</strong>
+              <span>BSIT Software Services</span>
+            </div>
+          </div>
+        </article>
+        <article class="tcard">
+          <p>“Great communicator with a calm, methodical approach — a valuable teammate.”</p>
+          <div class="tauthor">
+            <img src="images/user3.jpg" alt="User avatar 3" onerror="this.style.visibility='hidden'">
+            <div>
+              <strong>Peer</strong>
+              <span>Collaborator</span>
+            </div>
+          </div>
+        </article>
+      </div>
+      <button class="car-btn next" aria-label="Next testimonial"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    <div class="car-dots" aria-label="Testimonials navigation"></div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section container reveal">
+    <h2 class="section-title"><i class="fa-solid fa-paper-plane"></i> Contact</h2>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Get in touch</h3>
+        <p>Open to entry-level opportunities in application development, front-end engineering, and database-backed systems.</p>
+        <div class="contact-ways">
+          <a class="chip" href="tel:+919391964396"><i class="fa-solid fa-phone"></i> 9391964396</a>
+          <a class="chip" href="mailto:vannapudipak123@gmail.com"><i class="fa-solid fa-envelope"></i> vannapudipak123@gmail.com</a>
+        </div>
+      </div>
+      <form class="contact-form" action="[formspree.io](https://formspree.io/f/your-id)" method="POST" onsubmit="return validateForm(event)">
+        <div class="row">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+        </div>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+        </label>
+        <button class="btn primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Send</button>
+        <p class="form-note">Note: Replace the action URL with your Formspree or backend endpoint.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container foot-grid">
+      <div class="foot-brand">
+        <span class="logo small" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 64 64" fill="none" xmlns="[w3.org](http://www.w3.org/2000/svg)">
+            <path d="M32 6 L54 58 L46 58 L40 44 L24 44 L18 58 L10 58 L32 6 Z M36 36 L32 26 L28 36 L36 36 Z" fill="currentColor"/>
+          </svg>
+        </span>
+        <strong>Vannapu Dipak Goud</strong>
+        <p>Application Developer — HTML, CSS, JavaScript, Core Java, MySQL</p>
+      </div>
+      <div class="foot-links">
+        <a href="#home">Home</a>
+        <a href="#about">Objective</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.pdf" download>Download Resume</a>
+      </div>
+      <div class="foot-social">
+        <a href="mailto:vannapudipak123@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:+919391964396" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+        <a href="[dipaksportfolio.netlify.app](https://dipaksportfolio.netlify.app/)" target="_blank" rel="noreferrer" aria-label="Website"><i class="fa-solid fa-globe"></i></a>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        © <span id="year"></span> Vannapu Dipak Goud. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
